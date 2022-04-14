@@ -1,6 +1,17 @@
 .title {
     text-align: center;
     color: #ffffff;
-    font-size: ;
+    font-size: 30px;
     font-weight: 700;
 }
+
+.paragraph{
+    text-align: center;
+    color: #fff;
+    line-height: 1.5rem;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.
