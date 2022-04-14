@@ -1,0 +1,63 @@
+.blue--card{
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    line-height: 1.5rem;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.form{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem 1.5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    font-weight:700;
+    margin-bottom: 1rem;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    border: 1px solid var(--grayish-blue);
+    font-size: 18px;
+    font-size: 15px;
+}
+
+.submit{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 1.5rem 1.5rem;
+    background: var(--green);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.terms{
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    color: var(--grayish-blue);
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.terms a{
+    color: var(--red);
+}
+
+@media screen and (min-width: 1440px){
+    .right{
+        width: 50%;
+    }
+}
